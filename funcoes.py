@@ -49,5 +49,5 @@ def cadastrar_animais():
             f'Particularidade: {particularidade if (particularidade != "N") else "Nenhuma"}\n')
 
 
-cadastrar_animais()
+def cadastro_pessoas():
 
