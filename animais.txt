@@ -1,5 +1,5 @@
-Tipo: dfgdf
+Tipo: Fera
 Idade aproximada: 5
-Cor: dfgdf
-Porte: dfgdf
+Cor: Marrom
+Porte: Médio
 Particularidade: Nenhuma
