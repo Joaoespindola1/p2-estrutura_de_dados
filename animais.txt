@@ -1,5 +1,0 @@
-Tipo: Fera
-Idade aproximada: 5
-Cor: Marrom
-Porte: Médio
-Particularidade: Nenhuma

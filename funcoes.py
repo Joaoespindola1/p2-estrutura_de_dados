@@ -31,9 +31,9 @@ def cadastrar_animais():
             print('Tipo inválido, tente novamente')
 
 
-    idade = int(input('Idade aproximada do animal: '))
+    idade = int(input('Idade aproximada do animal em anos: '))
     cor = str(input('Cor do animal: '))
-    porte = str(input('porte do animal: '))
+    porte = str(input('Porte do animal: '))
     particularidade = str(input('Possui alguma particularidade? [S/N]: ')).upper().strip()
     if particularidade == 'S':
         particularidade = str(input('Qual? '))
@@ -41,11 +41,11 @@ def cadastrar_animais():
         pass
 
     try:
-        a = open('animais.txt', 'wt+', encoding='UTF-8')
+        a = open('animais.txt', 'a', encoding='UTF-8')
     except:
         print('Houve um erro na criação do arquivo')
 
-    a.write(f'Tipo: {tipo}\n'
+    a.write(f'\nTipo: {tipo}'
             f'Idade aproximada: {idade}\n'
             f'Cor: {cor}\n'
             f'Porte: {porte}\n'
