@@ -53,7 +53,5 @@ def cadastrar_animais():
 
 cadastrar_animais()
 
-
-
 #def cadastro_pessoas():
 
