@@ -53,5 +53,9 @@ def cadastrar_animais():
             f'Particularidade: {particularidade if (particularidade != "N") else "Nenhuma"}\n')
 
 
+<<<<<<< HEAD
 def cadastrar_pessoa():
+=======
+#def cadastro_pessoas():
+>>>>>>> 550f230fe23c26e2935ee4e713b9777d23f1d3c3
 
