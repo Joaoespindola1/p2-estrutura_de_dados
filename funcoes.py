@@ -24,6 +24,7 @@ def cadastrar_animais():
         elif tipo == c:
             r_tipos = open(f'tipos.txt', 'a', encoding='UTF-8')
             tipo = str(input('Qual novo tipo deseja cadastrar: '))
+            tipo = tipo + '\n'
             r_tipos.write(f'{c};{tipo}\n')
             break
 
@@ -51,5 +52,6 @@ def cadastrar_animais():
             f'Porte: {porte}\n'
             f'Particularidade: {particularidade if (particularidade != "N") else "Nenhuma"}\n')
 
-cadastrar_animais()
+
+def cadastrar_pessoa():
 
