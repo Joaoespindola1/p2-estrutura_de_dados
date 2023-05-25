@@ -1,0 +1,6 @@
+
+Tipo: Canino
+Idade aproximada: 3
+Cor: Marrom
+Porte: Pequeno
+Particularidade: Nenhuma
