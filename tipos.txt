@@ -2,3 +2,4 @@
 2;Felino
 3;Peixe
 4;Réptil
+5;Vertebrádo
