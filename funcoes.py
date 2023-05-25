@@ -105,8 +105,9 @@ def cadastrar_pessoa():
 
     if preferencia == 'S':
         preferencia = int(input(f'[1] Idade\n'
-                          f'[2] Cor\n'
-                          f'[3] Porte\n'))
+                                f'[2] Cor\n'
+                                f'[3] Porte\n'))
+
         if preferencia == 1:
             idade = int(input('Idade preferencial: '))
         elif preferencia == 2:
