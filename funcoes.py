@@ -133,5 +133,4 @@ def cadastrar_pessoa():
         print('Houve um erro na criação do arquivo')
 
 
-def pesquisar_animais():
-    pass
+cadastrar_pessoa()
