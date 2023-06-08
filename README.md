@@ -12,7 +12,7 @@ Na imagem acima vemos a função de cadastro de animais. Ela serve para adiciona
 ![Função de cadastro de pessoas](img/cadastro-pessoa.png)
 Na imagem acima vemos a função de cadastro de pessoas. Ela serve para adicionar o **nome, cpf, e-mail, numero e preferência do animal**. Estamos também salvado esses dados como **txt**. A preferenência do animal contém tudo da primeira *função de cadastro de animais*.
 ![image]()
-**Ainda em construção**
+**Ainda em construção.**
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus facilisis viverra. Sed elementum nisi at lacus scelerisque, in sodales orci pulvinar. Donec laoreet nisi id ligula hendrerit, quis vehicula ante congue. Fusce eu risus maximus, cursus nunc quis, bibendum lectus. Quisque pretium orci in tellus tempus, sed dapibus ligula semper.
 ### Pré-requisitos:
 * Python Version 3.10.6
