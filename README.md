@@ -43,7 +43,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus facilisis 
 2: Executa a função **ainda em construção()**<br>
 0: Sai do programa.<br></pre>   
     
-# Análise de complexidade
+# Análise de complexidade.
 Os métados utilizados como **ainda em construção()**
 # Autor
 Nome: João Pedro Espindola & Gabriel Neves<br>
