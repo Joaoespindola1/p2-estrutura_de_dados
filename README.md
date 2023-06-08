@@ -4,7 +4,7 @@ Curso: Engenharia de Software 3º Período
 Alunos: João Pedro Espindola de Mendonça & Gabriel da Silva Neves
 Disciplina: Estrutura de Dados<br>
 Professor: Marcio Garrido
-# Enunciado
+# Enunciado.
 ![imagem do enunciado](img/p2.png)
 # Projeto P2 Estrutura De Dados
 ![Função de cadastro de animais](img/cadastro-animal.png)
