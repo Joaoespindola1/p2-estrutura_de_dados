@@ -6,7 +6,7 @@ Disciplina: Estrutura de Dados<br>
 Professor: Marcio Garrido
 # Enunciado.
 ![imagem do enunciado](img/p2.png)
-# Projeto P2 Estrutura De Dados
+# Projeto P2 Estrutura De Dados.
 ![Função de cadastro de animais](img/cadastro-animal.png)
 Na imagem acima vemos a função de cadastro de animais. Ela serve para adicionar o **tipo, idade, cor, porte e particularidade do animal**. Estamos também salvado esses dados como **txt**.
 ![Função de cadastro de pessoas](img/cadastro-pessoa.png)
