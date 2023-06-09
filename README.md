@@ -1,7 +1,7 @@
 ![download](https://user-images.githubusercontent.com/87872775/228082987-ac241011-e117-49cc-ba8e-461c5577d0f8.png)
 # Sobre a Disciplina.
 Curso: Engenharia de Software 3º Período
-Alunos: João Pedro Espindola de Mendonça & Gabriel da Silva Neves
+Alunos: João Pedro Espindola de Mendonça & Gabriel da Silva Neves.
 Disciplina: Estrutura de Dados<br>
 Professor: Marcio Garrido
 # Enunciado.
@@ -31,7 +31,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus facilisis 
 -[x] Classificação por idade aproximada, cor, porte e se possuem particularidade. <br>
 -[x] Cadastro de pessoas com interesse em adoção, contendo os dados principais de contato e qual espécie tem interesse de adotar. <br>
 -[x] A pessoa que escolher a espécie, deve informar ao sistema se possui alguma preferência de animal. <br>
--[ ] Mensalmente o sistema tem que emitir um relatório de cruzamentno de espécies disponíveis e possíveis candidatos. <br>
+-[ ] Mensalmente o sistema tem que emitir um relatório de cruzamento de espécies disponíveis e possíveis candidatos. <br>
 -[ ] Ter uma função de pesquisa que permita a atendente pesquisar se há algum animal com as características informadas. <br>
 
 # Como executar:
