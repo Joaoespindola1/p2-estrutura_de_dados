@@ -167,7 +167,6 @@ def inicializar():
 #que o atendente possa pesquisar se há algum animal com as características informadas.
 def pesquisar():
     inicializar()
-    print(animais)
     r_tipos = open(f'tipos.txt', 'r', encoding='UTF-8')
     c = 1
     for linha in r_tipos:
@@ -189,17 +188,16 @@ def pesquisar():
             print('Tipo inválido, tente novamente')
 
     idade = int(input('Idade aproximada do animal (em anos): '))
-    cor = str(input('Cor do animal: '))
-    porte = str(input('Porte do animal: '))
+    cor = str(input('Cor do animal: ')).upper()
+    porte = str(input('Porte do animal: ')).upper()
 
-    print(tipo)
-    print(idade)
-    print(cor)
-    print(porte)
-
+    c = 0
     for i in animais:
-        for k, v in i.items():
-            print(f'{k}: {v}')
+        if tipo == i['Tipo'] and str(idade) == i['Idade aproximada'] and cor.upper() == i['Cor'].upper() and porte.upper() == i['Porte'].upper():
+            print(f'===== Animal número {c} =====')
+            print(i)
+        c+=1
+
 
 
 

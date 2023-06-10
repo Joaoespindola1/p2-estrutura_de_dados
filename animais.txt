@@ -9,3 +9,9 @@ Idade aproximada: 5
 Cor: Marrom
 Porte: Pequeno
 Particularidade: Nenhuma
+
+Tipo: Canino
+Idade aproximada: 3
+Cor: Marrom
+Porte: Pequeno
+Particularidade: Nenhuma
