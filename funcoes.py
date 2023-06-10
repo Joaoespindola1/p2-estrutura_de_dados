@@ -131,6 +131,8 @@ def cadastrar_pessoa():
                 f'Porte preferencial: {porte}\n')
     except FileNotFoundError:
         print('Houve um erro na criação do arquivo')
-
-
-cadastrar_pessoa()
+       
+    
+    
+def pesquisar(chave, valor):
+    
