@@ -193,10 +193,11 @@ def pesquisar():
 
     c = 0
     for i in animais:
-        if tipo == i['Tipo'] and str(idade) == i['Idade aproximada'] and cor.upper() == i['Cor'].upper() and porte.upper() == i['Porte'].upper():
-            print(f'===== Animal número {c} =====')
-            print(i)
-        c+=1
+        if int(i['Idade aproximada']) < idade+2 and int(i['Idade aproximada']) > idade-2:
+            if tipo == i['Tipo'] and cor.upper() == i['Cor'].upper() and porte.upper() == i['Porte'].upper():
+                print(f'===== Animal número {c} =====')
+                print(i)
+
 
 
 
