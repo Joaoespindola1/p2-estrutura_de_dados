@@ -26,13 +26,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus facilisis 
 7. Ter uma função de pesquisa que permita a atendente pesquisar se há algum animal com as características informadas.
 
 ### Lista de tarefas a fazer:
--[x] Cadastro de animais por tipos. <br>
--[x] Tenha a possibilidade de cadastrar novos animais. <br>
--[x] Classificação por idade aproximada, cor, porte e se possuem particularidade. <br>
--[x] Cadastro de pessoas com interesse em adoção, contendo os dados principais de contato e qual espécie tem interesse de adotar. <br>
--[x] A pessoa que escolher a espécie, deve informar ao sistema se possui alguma preferência de animal. <br>
+-[X] Cadastro de animais por tipos. <br>
+-[X] Tenha a possibilidade de cadastrar novos animais. <br>
+-[X] Classificação por idade aproximada, cor, porte e se possuem particularidade. <br>
+-[X] Cadastro de pessoas com interesse em adoção, contendo os dados principais de contato e qual espécie tem interesse de adotar. <br>
+-[X] A pessoa que escolher a espécie, deve informar ao sistema se possui alguma preferência de animal. <br>
 -[ ] Mensalmente o sistema tem que emitir um relatório de cruzamento de espécies disponíveis e possíveis candidatos. <br>
--[ ] Ter uma função de pesquisa que permita a atendente pesquisar se há algum animal com as características informadas. <br>
+-[X] Ter uma função de pesquisa que permita a atendente pesquisar se há algum animal com as características informadas. <br>
 
 # Como executar:
 1 - Clone o repositório ou baixe o arquivo nome_arquivo.py.<br></pre>
