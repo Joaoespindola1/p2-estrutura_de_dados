@@ -136,5 +136,17 @@ def cadastrar_pessoa():
     
 def pesquisar(chave, valor):
     
-def inicializar(): #Passará pelos animais e cadastrara todos em um dicionário
+def inicializar(): #Passará pelos animais e pelas pessoas e cadastrará todos em um dicionário
+    r_animais = open(f'animais.txt', 'r', encoding='UTF-8')
+    animais = [{}]
+    c = 0
+    for linha in r_animais:
+        dado = linha.split(';')
+        animais[c][dado[0] = dado[1]   
+        print(f'[{dado[0]}] {dado[1]}', end='')
+        if ultima_linda de animais == "":
+                   c += 1
+                   animais.append({})
+    
+    
     
