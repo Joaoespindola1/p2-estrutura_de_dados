@@ -140,7 +140,7 @@ def cadastrar_pessoa():
 def inicializar(): #Passará pelos animais e pelas pessoas e cadastrará todos em um dicionário
     r_animais = open(f'animais.txt', 'r', encoding='UTF-8')
     animais = [{}]
-    c = -1
+    c = 0
     for linha in r_animais:
         dado = linha.split(':')
         if dado[0] == "\n":
@@ -149,8 +149,21 @@ def inicializar(): #Passará pelos animais e pelas pessoas e cadastrará todos e
             pass
         else:
             animais[c][dado[0]] = dado[1].replace('\n', '').strip()
-    print(animais[0])
-    print(animais[1])
+
+    r_pessoas = open(f'pessoas.txt', 'r', encoding='UTF-8')
+    pessoas = [{}]
+    c = 0
+    for linha in r_pessoas:
+        dado = linha.split(':')
+        if dado[0] == "\n":
+            pessoas.append({})
+            c += 1
+            pass
+        else:
+            pessoas[c][dado[0]] = dado[1].replace('\n', '').strip()
+    for i in pessoas, animais:
+        for j in i:
+            print(j)
 
 
 inicializar()
