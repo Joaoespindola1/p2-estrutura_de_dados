@@ -4,3 +4,9 @@ Idade aproximada: 3
 Cor: Marrom
 Porte: Pequeno
 Particularidade: Nenhuma
+
+Tipo: Felino
+Idade aproximada: 5
+Cor: Marrom
+Porte: Pequeno
+Particularidade: Nenhuma
