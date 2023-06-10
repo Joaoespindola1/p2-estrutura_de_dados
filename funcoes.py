@@ -136,3 +136,5 @@ def cadastrar_pessoa():
     
 def pesquisar(chave, valor):
     
+def inicializar(): #Passará pelos animais e cadastrara todos em um dicionário
+    
