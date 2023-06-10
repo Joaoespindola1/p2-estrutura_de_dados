@@ -131,14 +131,11 @@ def cadastrar_pessoa():
                 f'Porte preferencial: {porte}\n')
     except FileNotFoundError:
         print('Houve um erro na criação do arquivo')
-       
-    
-    
-#def pesquisar(chave, valor):
 
 
-def inicializar(): #Passará pelos animais e pelas pessoas e cadastrará todos em um dicionário
+def inicializar():
     r_animais = open(f'animais.txt', 'r', encoding='UTF-8')
+    global animais
     animais = [{}]
     c = 0
     for linha in r_animais:
@@ -151,6 +148,7 @@ def inicializar(): #Passará pelos animais e pelas pessoas e cadastrará todos e
             animais[c][dado[0]] = dado[1].replace('\n', '').strip()
 
     r_pessoas = open(f'pessoas.txt', 'r', encoding='UTF-8')
+    global pessoas
     pessoas = [{}]
     c = 0
     for linha in r_pessoas:
@@ -161,12 +159,48 @@ def inicializar(): #Passará pelos animais e pelas pessoas e cadastrará todos e
             pass
         else:
             pessoas[c][dado[0]] = dado[1].replace('\n', '').strip()
-    for i in pessoas, animais:
-        for j in i:
-            print(j)
+    #for i in pessoas, animais:
+     #   for j in i:
+     #       print(j)
 
 
-inicializar()
-    
-    
-    
+#que o atendente possa pesquisar se há algum animal com as características informadas.
+def pesquisar():
+    inicializar()
+    print(animais)
+    r_tipos = open(f'tipos.txt', 'r', encoding='UTF-8')
+    c = 1
+    for linha in r_tipos:
+        dado = linha.split(';')
+        print(f'[{dado[0]}] {dado[1]}', end='')
+        c += 1
+
+    while True:
+        tipo = int(input('Tipo do animal: '))
+        if tipo < c:
+            r_tipos = open(f'tipos.txt', 'r+', encoding='UTF-8')
+            for linha in r_tipos:
+                dado = linha.split(';')
+                if dado[0] == str(tipo):
+                    tipo = dado[1].replace('\n', '')
+                    break
+            break
+        else:
+            print('Tipo inválido, tente novamente')
+
+    idade = int(input('Idade aproximada do animal (em anos): '))
+    cor = str(input('Cor do animal: '))
+    porte = str(input('Porte do animal: '))
+
+    print(tipo)
+    print(idade)
+    print(cor)
+    print(porte)
+
+    for i in animais:
+        for k, v in i.items():
+            print(f'{k}: {v}')
+
+
+
+pesquisar()
