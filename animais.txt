@@ -15,3 +15,9 @@ Idade aproximada: 3
 Cor: MARROM
 Porte: PEQUENO
 Particularidade: Nenhuma
+
+Tipo: PEIXE
+Idade aproximada: 4
+Cor: LARANJA
+Porte: PEQUENO
+Particularidade: Nenhuma
