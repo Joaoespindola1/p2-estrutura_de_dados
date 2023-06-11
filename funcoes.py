@@ -197,9 +197,4 @@ def pesquisar():
             if tipo == i['Tipo'] and cor.upper() == i['Cor'].upper() and porte.upper() == i['Porte'].upper():
                 print(f'===== Animal número {c} =====')
                 print(i)
-
-
-
-
-
 pesquisar()
