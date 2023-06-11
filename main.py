@@ -9,8 +9,12 @@ if __name__ == '__main__':
         print('\n[1] Cadastrar animais\n'
               '[2] Cadastrar pessoas\n'
               '[3] Pesquisar\n'
-              '[4] Cruzamento')
+              '[4] Cruzamento\n'
+              '[0] Sair')
         op = int(input('\nEscolha uma opção: '))
+
+        if op == 0:
+            break
 
         while op == 1:
             cadastrar_animais()
