@@ -31,16 +31,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus facilisis 
 -[X] Classificação por idade aproximada, cor, porte e se possuem particularidade. <br>
 -[X] Cadastro de pessoas com interesse em adoção, contendo os dados principais de contato e qual espécie tem interesse de adotar. <br>
 -[X] A pessoa que escolher a espécie, deve informar ao sistema se possui alguma preferência de animal. <br>
--[ ] Mensalmente o sistema tem que emitir um relatório de cruzamento de espécies disponíveis e possíveis candidatos. <br>
+-[X] Mensalmente o sistema tem que emitir um relatório de cruzamento de espécies disponíveis e possíveis candidatos. <br>
 -[X] Ter uma função de pesquisa que permita a atendente pesquisar se há algum animal com as características informadas. <br>
 
 # Como executar:
 1 - Clone o repositório ou baixe o arquivo nome_arquivo.py.<br></pre>
 2 - Abra o terminal e navegue até o diretório do arquivo.<br>
-3 - Execute o arquivo digitando python nome_arquivo.py.<br>
+3 - Execute o arquivo digitando python main.py.<br>
 4 - Digite o número correspondente à opção desejada:<br>
-<pre>1: Executa a função **ainda em construção()** uma vez.<br>
-2: Executa a função **ainda em construção()**<br>
 0: Sai do programa.<br></pre>   
     
 # Análise de complexidade.
