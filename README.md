@@ -46,5 +46,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus facilisis 
 # Análise de complexidade.
 Os métados utilizados como **ainda em construção()**
 # Autor
-Nome: João Pedro Espindola & Gabriel Neves<br>
+Nome: João Pedro Espindola & Gabriel Neves <br>
 GitHub: https://github.com/Joaoespindola1 & https://github.com/YukiTsuki12
