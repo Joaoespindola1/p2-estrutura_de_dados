@@ -1,17 +1,17 @@
-Tipo: Canino
+Tipo: CANINO
 Idade aproximada: 3
-Cor: Marrom
-Porte: Pequeno
+Cor: MARROM
+Porte: PEQUENO
 Particularidade: Nenhuma
 
-Tipo: Felino
+Tipo: FELINO
 Idade aproximada: 5
-Cor: Marrom
-Porte: Pequeno
+Cor: MARROM
+Porte: PEQUENO
 Particularidade: Nenhuma
 
-Tipo: Canino
+Tipo: CANINO
 Idade aproximada: 3
-Cor: Marrom
-Porte: Pequeno
+Cor: MARROM
+Porte: PEQUENO
 Particularidade: Nenhuma
