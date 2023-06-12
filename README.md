@@ -11,6 +11,12 @@ A Universidade de Vassouras do Campus 1 foi convidada pela prefeitura de Maricá
 Os alunos do curso de Engenharia de Software foram convocados para a reunião com a secretaria da cidade para entender a demanda solicitada e alguns pontos foram levantados. <br>
 A prefeitura precisa de um sistema que possa cadastrar todos os animais por tipo (canino, felino, etc.) e para tanto, é uma premissa que seja possível inserir novos tipos dinamicamente. Precisa ainda, que sejam classificados por idade aproximada, cor, porte e se possui alguma particularidade. No mesmo sistema, deverá ter também um cadastro de pessoas interessadas na adoção, contendo os dados principais de contato e qual espécie teria o interesse de adotar. Ao escolher a espécie, deve também informar se possui alguma preferência do animal. Por fim, no final do mês a prefeitura emitirá um relatório de cruzamento de espécies disponíveis x possíveis candidatos, ou quando um candidato a adoção ligar, que o atendente possa pesquisar se há algum animal com as características informadas. <br>
 Os alunos anotaram atentamente a todas as observações, criaram o fluxograma do estudo de caso, e posteriormente o primeiro protótipo em Python, ainda que em modo texto, e sem requisitos gráficos. A ideia foi apenas validar a proposta do programa junto ao solicitante.
+
+# Fluxograma
+![image](https://github.com/Joaoespindola1/p2-estrutura_de_dados/assets/102266728/bf2ab5e0-a1d8-4034-9bd7-a2f41b9aa2b6)
+
+[fluxograma_p2.drawio.pdf](https://github.com/Joaoespindola1/p2-estrutura_de_dados/files/11728418/fluxograma_p2.drawio.pdf)
+
 # Projeto P2 Estrutura De Dados.
 ![Função de cadastro de animais](img/cadastro-animal.png) <br> <br>
 Na imagem acima vemos a função de cadastro de animais. Ela serve para adicionar o **tipo, idade, cor, porte e particularidade do animal**. Estamos também salvado esses dados como **txt**.
