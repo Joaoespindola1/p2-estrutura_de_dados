@@ -29,7 +29,11 @@ def cruzamento():
     inicializar()
     c = 0
     for a in animais:
-
+        print(f'\nAnimal id: {c}\n')
+        for k, v in a.items():
+            print(f'{k}: {v} | ', end='')
+        print('\n')
+        print(f'------- Possiveis candidatos para o id: {c} -------\n')
         for p in pessoas:
             if p['Idade preferencial'] == 'N/a':
                 idade = int(a['Idade aproximada'])
@@ -48,14 +52,9 @@ def cruzamento():
 
             if idade + 2 >= int(a['Idade aproximada']) >= idade - 2:
                 if p['Tipo preferencial'] == a['Tipo'] and cor == a['Cor'] and porte == a['Porte']:
-                    print(f'\nAnimal id: {c}\n')
-                    for k, v in a.items():
-                        print(f'{k}: {v} | ', end='')
-                    print('\n')
-                    print(f'------- Possiveis candidatos para o id: {c} -------\n')
                     print(p)
                     print()
-                    print('=' * 50)
+        print('=' * 50)
         c += 1
 
 

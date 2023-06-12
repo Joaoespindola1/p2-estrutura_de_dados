@@ -21,3 +21,9 @@ Idade aproximada: 4
 Cor: LARANJA
 Porte: PEQUENO
 Particularidade: Nenhuma
+
+Tipo: RÉPTIL
+Idade aproximada: 8
+Cor: VERDE
+Porte: GRANDE
+Particularidade: Nenhuma

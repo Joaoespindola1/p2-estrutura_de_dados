@@ -1,3 +1,5 @@
+from erro_int import erro_int
+
 def cadastrar_animais():
     print()
     print(20*'=' + ' Cadastro de Animais ' + 20 * '=')
@@ -30,7 +32,8 @@ def cadastrar_animais():
         else:
             print('Tipo inválido, tente novamente')
 
-    idade = int(input('Idade aproximada do animal (em anos): '))
+    idade = 0
+    idade = erro_int(idade ,'Idade aproximada do animal (em anos): ')
     cor = str(input('Cor do animal: ')).upper()
     porte = str(input('Porte do animal: ')).upper()
     particularidade = str(input('Possui alguma particularidade? [S/N]: ')).upper().strip()
@@ -49,3 +52,4 @@ def cadastrar_animais():
     except FileNotFoundError:
         print('Houve um erro na criação do arquivo')
 
+cadastrar_animais()

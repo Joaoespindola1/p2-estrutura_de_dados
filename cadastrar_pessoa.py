@@ -1,3 +1,5 @@
+from erro_int import erro_int
+
 def cadastrar_pessoa():
     print(20 * '=' + ' Cadastro de Pessoas ' + 20 * '=')
 
@@ -6,7 +8,9 @@ def cadastrar_pessoa():
     nome = str(input('Nome: '))
     cpf = str(input('CPF: '))
     email = str(input('E-mail: '))
-    numero = int(input('Número + DDD: '))
+    numero = 0
+    numero = erro_int(numero, 'Número + DDD: ')
+
 
     # Preferência do animal
     print('Preferência do animal')
@@ -73,3 +77,5 @@ def cadastrar_pessoa():
                 f'Porte preferencial: {porte}\n')
     except FileNotFoundError:
         print('Houve um erro na criação do arquivo')
+
+cadastrar_pessoa()

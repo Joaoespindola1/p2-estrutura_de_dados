@@ -4,8 +4,8 @@ from cruzamento import cruzamento
 from pesquisar import pesquisar
 
 if __name__ == '__main__':
+    print(20 * '=' + ' Bem vindo ao sistema de adoção ' + 20 * '=')
     while True:
-        print(20*'=' + ' Bem vindo ao sistema de adoção ' + 20*'=')
         print('\n[1] Cadastrar animais\n'
               '[2] Cadastrar pessoas\n'
               '[3] Pesquisar\n'
@@ -42,6 +42,10 @@ if __name__ == '__main__':
             op = int(input('\nEscolha uma opção: '))
             if op == 1:
                 op = 4
+        else:
+            print('Opção inválida')
+
+
 
 
 
