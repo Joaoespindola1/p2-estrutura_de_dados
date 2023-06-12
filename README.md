@@ -6,12 +6,18 @@ Alunos: João Pedro Espindola de Mendonça & Gabriel da Silva Neves. <br>
 Disciplina: Estrutura de Dados<br> 
 
 # Enunciado.
-![imagem do enunciado](img/p2.png)
+P2 - Enunciado e regras <br>
+A Universidade de Vassouras do Campus 1 foi convidada pela prefeitura de Maricá para promover uma solução tecnológica em um dos problemas sociais da cidade, o abandono de animais. Mesmo considerado crime (O abandono de animais é crime, previsto na Lei de Crimes Ambientais - Lei Federal n° 9.605 de 1998), e notório que o índice de abandono vem crescendo a cada ano.
+Os alunos do curso de Engenharia de Software foram convocados para a reunião com a secretaria da cidade para entender a demanda solicitada e alguns pontos foram levantados. <br>
+A prefeitura precisa de um sistema que possa cadastrar todos os animais por tipo (canino, felino, etc.) e para tanto, é uma premissa que seja possível inserir novos tipos dinamicamente. Precisa ainda, que sejam classificados por idade aproximada, cor, porte e se possui alguma particularidade. No mesmo sistema, deverá ter também um cadastro de pessoas interessadas na adoção, contendo os dados principais de contato e qual espécie teria o interesse de adotar. Ao escolher a espécie, deve também informar se possui alguma preferência do animal. Por fim, no final do mês a prefeitura emitirá um relatório de cruzamento de espécies disponíveis x possíveis candidatos, ou quando um candidato a adoção ligar, que o atendente possa pesquisar se há algum animal com as características informadas. <br>
+Os alunos anotaram atentamente a todas as observações, criaram o fluxograma do estudo de caso, e posteriormente o primeiro protótipo em Python, ainda que em modo texto, e sem requisitos gráficos. A ideia foi apenas validar a proposta do programa junto ao solicitante.
 # Projeto P2 Estrutura De Dados.
-![Função de cadastro de animais](img/cadastro-animal.png)
+![Função de cadastro de animais](img/cadastro-animal.png) <br> <br>
 Na imagem acima vemos a função de cadastro de animais. Ela serve para adicionar o **tipo, idade, cor, porte e particularidade do animal**. Estamos também salvado esses dados como **txt**.
-![Função de cadastro de pessoas](img/cadastro-pessoa.png)
+<br> <br>
+![Função de cadastro de pessoas](img/cadastro-pessoa.png) <br> <br>
 Na imagem acima vemos a função de cadastro de pessoas. Ela serve para adicionar o **nome, cpf, e-mail, numero e preferência do animal**. Estamos também salvado esses dados como **txt**. A preferenência do animal contém tudo da primeira *função de cadastro de animais*.
+<br>
 ![image]()
 **Ainda em construção.**
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus facilisis viverra. Sed elementum nisi at lacus scelerisque, in sodales orci pulvinar. Donec laoreet nisi id ligula hendrerit, quis vehicula ante congue. Fusce eu risus maximus, cursus nunc quis, bibendum lectus. Quisque pretium orci in tellus tempus, sed dapibus ligula semper.
