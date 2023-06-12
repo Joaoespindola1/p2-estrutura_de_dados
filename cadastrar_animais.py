@@ -51,5 +51,3 @@ def cadastrar_animais():
                 f'Particularidade: {particularidade if (particularidade != "N") else "Nenhuma"}\n')
     except FileNotFoundError:
         print('Houve um erro na criação do arquivo')
-
-cadastrar_animais()
