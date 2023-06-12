@@ -1,7 +1,8 @@
 def erro_int(v,m):
-    try:
-        v = int(input(m))
-    except:
-        print('Inválido')
-        erro_int(v,m)
-    return v
+    while True:
+        v = (input(m))
+        if v.isdigit():
+            return v
+            break
+        print("Inválido")
+
