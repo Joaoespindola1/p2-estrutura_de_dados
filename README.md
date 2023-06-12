@@ -1,10 +1,10 @@
 ![download](https://user-images.githubusercontent.com/87872775/228082987-ac241011-e117-49cc-ba8e-461c5577d0f8.png)
 # Sobre a Disciplina.
-Curso: Engenharia de Software 3º Período
-Professor: [Marcio Alexandre Dias Garrido] (https://github.com/marciogarridoLaCop)
-Alunos: João Pedro Espindola de Mendonça & Gabriel da Silva Neves.
-Disciplina: Estrutura de Dados<br>
-Professor: Marcio Garrido
+Curso: Engenharia de Software 3º Período <br>
+Professor: Marcio Alexandre Dias Garrido (https://github.com/marciogarridoLaCop) <br>
+Alunos: João Pedro Espindola de Mendonça & Gabriel da Silva Neves. <br>
+Disciplina: Estrutura de Dados<br> 
+
 # Enunciado.
 ![imagem do enunciado](img/p2.png)
 # Projeto P2 Estrutura De Dados.
